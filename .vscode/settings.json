@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "editor.rulers": [100],
+  "editor.tabSize": 2,
+  "eslint.autoFixOnSave": true,
+  "eslint.enable": true,
+  "eslint.options": {
+    "configFile": "./.eslintrc.js"
+  },
+  "eslint.run": "onSave",
+  "prettier.eslintIntegration": true
+}
