@@ -7,7 +7,7 @@
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
     "react-easy-chart": "^1.0.0",
-    "react-easy-state": "^5.0.0",
+    "react-easy-state": "5.0.0",
     "react-scripts": "1.1.1",
     "semantic-ui-css": "^2.3.0",
     "semantic-ui-react": "^0.79.0"

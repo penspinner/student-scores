@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { view } from 'react-easy-state';
 
 const StudentGradesStats = ({ average, count, max, min }) => (
   <div>
@@ -24,4 +25,4 @@ StudentGradesStats.defaultProps = {
   min: 'NaN',
 };
 
-export default StudentGradesStats;
+export default view(StudentGradesStats);

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { view } from 'react-easy-state';
 import { BarChart } from 'react-easy-chart';
 
 const StudentGradesBarChart = ({ data }) => (
@@ -17,4 +18,4 @@ StudentGradesBarChart.defaultProps = {
   data: [],
 };
 
-export default StudentGradesBarChart;
+export default view(StudentGradesBarChart);

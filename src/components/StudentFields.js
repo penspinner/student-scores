@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
+import { view } from 'react-easy-state';
 
 import { Button, Input, Label, Segment } from 'semantic-ui-react';
 
@@ -80,4 +81,4 @@ StudentFields.defaultProps = {
   studentScoreError: '',
 };
 
-export default StudentFields;
+export default view(StudentFields);

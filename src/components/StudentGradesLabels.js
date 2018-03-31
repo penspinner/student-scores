@@ -22,10 +22,12 @@ const StudentGradesLabels = ({ namesAndScores, onLabelRemove }) => (
 );
 
 StudentGradesLabels.propTypes = {
-  namesAndScores: PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string,
-    score: PropTypes.number,
-  })),
+  namesAndScores: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string,
+      score: PropTypes.number,
+    }),
+  ),
   onLabelRemove: PropTypes.func,
 };
 
